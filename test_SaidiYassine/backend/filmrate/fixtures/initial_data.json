@@ -1,0 +1,143 @@
+[
+  {
+    "model": "filmrate.actor",
+    "pk": 1,
+    "fields": {
+      "first_name": "act1",
+      "last_name": "ln1"
+    }
+  },
+  {
+    "model": "filmrate.actor",
+    "pk": 2,
+    "fields": {
+      "first_name": "act2",
+      "last_name": "ln2"
+    }
+  },
+  {
+    "model": "filmrate.movie",
+    "pk": 1,
+    "fields": {
+      "title": "Matrix",
+      "description": "Matrix movie.",
+      "actors": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "model": "filmrate.movie",
+    "pk": 2,
+    "fields": {
+      "title": "Karateka",
+      "description": "An action movie.",
+      "actors": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "filmrate.movie",
+    "pk": 3,
+    "fields": {
+      "title": "Matrix 2",
+      "description": "Matrix movie.",
+      "actors": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "model": "filmrate.movie",
+    "pk": 4,
+    "fields": {
+      "title": "Karateka 2",
+      "description": "An action movie.",
+      "actors": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "filmrate.movie",
+    "pk": 5,
+    "fields": {
+      "title": "Matrix 3",
+      "description": "Matrix movie.",
+      "actors": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "model": "filmrate.movie",
+    "pk": 6,
+    "fields": {
+      "title": "Karateka 3",
+      "description": "An action movie.",
+      "actors": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "filmrate.review",
+    "pk": 1,
+    "fields": {
+      "grade": 5,
+      "movie": 1
+    }
+  },
+  {
+    "model": "filmrate.review",
+    "pk": 2,
+    "fields": {
+      "grade": 4,
+      "movie": 1
+    }
+  },
+  {
+    "model": "filmrate.review",
+    "pk": 3,
+    "fields": {
+      "grade": 5,
+      "movie": 2
+    }
+  },
+  {
+    "model": "filmrate.review",
+    "pk": 4,
+    "fields": {
+      "grade": 5,
+      "movie": 3
+    }
+  },
+  {
+    "model": "filmrate.review",
+    "pk": 5,
+    "fields": {
+      "grade": 4,
+      "movie": 4
+    }
+  },
+  {
+    "model": "filmrate.review",
+    "pk": 6,
+    "fields": {
+      "grade": 5,
+      "movie": 5
+    }
+  },
+  {
+    "model": "filmrate.review",
+    "pk": 7,
+    "fields": {
+      "grade": 5,
+      "movie": 6
+    }
+  }
+]

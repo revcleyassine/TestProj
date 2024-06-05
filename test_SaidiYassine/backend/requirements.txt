@@ -1,0 +1,7 @@
+django==4.2
+django-cors-headers==4.3.1
+djangorestframework==3.15.1
+python-dotenv
+#those dependencies can be used to allow async views and db operations using postgresql db backend and asgiref to asyncronously wrap synchronous views
+#asgiref>=3.3.1
+#asyncpg>=0.21.0

@@ -1,0 +1,2 @@
+Saidi Yassine
+pour demarer l'application , executer la commande "docker-compose up --build" dans le dossier contenant ce fichier guide l'application sera live apartir de lurl "http://localhost:3000"

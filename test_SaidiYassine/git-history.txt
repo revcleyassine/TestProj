@@ -1,0 +1,139 @@
+commit 5848970ba20f54cf23a28ec3f38182af05deb0f3
+Author: javakortex <javakortex128@gmail.com>
+Date:   Wed Jun 5 15:10:04 2024 +0000
+
+    added hypotetical changes to implement async viewSets and operations
+    
+    - the /backend/filmrate/async_views.py contains a map of changes and conditions needed to implement async views ; as a meaninfull implementations of the async mode needs many parts of the app to be async compatible (thread-safety...)
+
+commit 40939d214224ed1c98be0ba39000f87520222c1f
+Author: javakortex <javakortex128@gmail.com>
+Date:   Wed Jun 5 14:25:06 2024 +0000
+
+    add docker files and configurations
+    
+    adding Dockerfile and entrypoint.sh for both backend and frontend
+
+commit ecb329caa10305a74f63987e6871b120263ac1c6
+Author: javakortex <javakortex128@gmail.com>
+Date:   Wed Jun 5 11:57:57 2024 +0000
+
+    add MovieDetail view and update store
+
+commit d1e7aef54bfe1a7ad68eb07c81af90670b1f9b98
+Author: javakortex <javakortex128@gmail.com>
+Date:   Wed Jun 5 11:47:49 2024 +0000
+
+    update the store to add state,mutations and action for the MovieDetail view
+    
+    - added moviedetails data fetching action , movedetails state then actor update and review insertion actions and mutations
+
+commit 9859d3a3cabf410415189e9c6fea266cc75010d3
+Author: javakortex <javakortex128@gmail.com>
+Date:   Wed Jun 5 11:35:49 2024 +0000
+
+    add both ActorItem and ReviewItem Components
+
+commit 34970939903dc3f35d7d210f0266eac0956f9008
+Author: javakortex <javakortex128@gmail.com>
+Date:   Wed Jun 5 11:31:03 2024 +0000
+
+    create fixture for intial data and load it
+
+commit 5318ef46f8855ec9912fddd82e3355fed6e1823f
+Author: javakortex <javakortex128@gmail.com>
+Date:   Wed Jun 5 11:11:02 2024 +0000
+
+    integrate axios as plugin & create store
+    
+    - create axios plugin files
+    
+    - create intial store for movie listing state,mutations and actions
+    
+    - configure app to use store
+
+commit a3dbe53db3ef6c57b849648fe5aa62769abc2ab8
+Author: javakortex <javakortex128@gmail.com>
+Date:   Wed Jun 5 10:56:35 2024 +0000
+
+    add the MovieItem component
+    
+    create the MovieItem compoenent using the router-link elements with the 'to' property binded to '/movies/' + movie.id so each Movie element will redirect the coresponding url in the /movies/ endpoint and get resolved by the movies-list action
+
+commit ea7224b441fa515b558b4d52287c3b7681b52254
+Author: javakortex <javakortex128@gmail.com>
+Date:   Wed Jun 5 10:51:03 2024 +0000
+
+    create initial router and configure it
+    
+    - create the router files and configure the vue app to use the router instance
+    
+    -configure the App.vue to use the router view
+
+commit c4768f31e834627617f38ad20011f4dd1df33f71
+Author: javakortex <javakortex128@gmail.com>
+Date:   Wed Jun 5 10:43:45 2024 +0000
+
+    installing dependencies
+    
+    installing the vue-router, vuex, and axios and updating the dependencies files
+
+commit 49af27a62a5d78b5446879ddc74cc27e488a7230
+Author: javakortex <javakortex128@gmail.com>
+Date:   Wed Jun 5 10:39:06 2024 +0000
+
+    scaffolding the frontend using vuetify create
+    
+    - creating the skeleton for frontend and cleaning unecessary files
+
+commit 2fb549e1a01286f45466c24694788ff1a8874e30
+Author: javakortex <javakortex128@gmail.com>
+Date:   Wed Jun 5 10:31:09 2024 +0000
+
+    add UnitTests for the /api endpoint
+    
+    add pagination support for the movies listing
+
+commit f6205a3c4104bdda83e48124a24b279f95ebb0ad
+Author: javakortex <javakortex128@gmail.com>
+Date:   Wed Jun 5 10:06:43 2024 +0000
+
+    add viewsets and integrate them with api urls
+    
+    -created views : [ActorViewSet , ReviewViewSet, MovieViewSet]
+    
+    -add the three viewsets to the api/ endpoint
+
+commit 7242160ffde6b5532869694f26687938821d94bf
+Author: javakortex <javakortex128@gmail.com>
+Date:   Wed Jun 5 09:47:55 2024 +0000
+
+    add serializes and their coresponding tests
+    
+    added serializers for MovieListSerializer,MovieDetailSerializer ActorSerializer and ReviewSerializer
+    
+    create unit tests for the Movie related serializes as they are the most central
+
+commit 6592a5108181d94ea29ff412ce246deca56d47c5
+Author: javakortex <javakortex128@gmail.com>
+Date:   Wed Jun 5 09:33:39 2024 +0000
+
+    Creation des Modeles et migrations initiales
+    
+    Modeles crées : Movie, Review, Actor
+
+commit 450a77251be8d7b1833f60f1d1dbdafe9e08f5b4
+Author: javakortex <javakortex128@gmail.com>
+Date:   Wed Jun 5 09:22:16 2024 +0000
+
+    configuration du backend settings
+    
+    - installations des apps (corsheaders,filmrate) -configurations necessaire
+
+commit e65e0cddc43bd5d0dde24fab5d128a5e91c019ff
+Author: javakortex <javakortex128@gmail.com>
+Date:   Wed Jun 5 09:14:19 2024 +0000
+
+    commit initial
+    
+    scaffolding de backend du projet
